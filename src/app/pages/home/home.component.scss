@@ -1,0 +1,29 @@
+.home-page {
+  display: flex;
+  padding-top: 68px;
+  .info {
+    max-width: 490px;
+    width: 100%;
+    .info-title {
+      font-size: 3.12em;
+      font-weight: bold;
+      color: #fff;
+    }
+    .info-description {
+      margin-top: 26px;
+      font-size: 1em;
+      color: #fff;
+    }
+    .info-action {
+      margin-top: 50px;
+      background: linear-gradient(#fa8305, #fb9e3c);
+      padding: 15px 30px;
+      border-radius: 40px;
+      color: #fff;
+    }
+  }
+  .home-banner {
+    max-width: 730px;
+    width: 100%;
+  }
+}

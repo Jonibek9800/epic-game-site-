@@ -1,0 +1,15 @@
+.home {
+  background: url("/assets/image/main_bg.png") no-repeat top;
+  background-color: #161616;
+  .container {
+    display: flex;
+    gap: 74px;
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+    padding-top: 39px;
+    .app_wrap {
+      width: 100%;
+    }
+  }
+}

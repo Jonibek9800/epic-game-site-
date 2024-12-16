@@ -1,0 +1,17 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 32px;
+  gap: 54px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+.activebutton {
+  box-shadow: inset 0 1px 0 0 #dcecfb;
+}
